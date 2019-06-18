@@ -20,7 +20,7 @@ def set_paddle_flags(flags):
 # not take any effect. 
 set_paddle_flags({
     'FLAGS_eager_delete_tensor_gb': 0,  # enable gc 
-    'FLAGS_memory_fraction_of_eager_deletion': 0.98
+    'FLAGS_fraction_of_gpu_memory_to_use': 0.98
 })
 
 import paddle
